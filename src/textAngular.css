@@ -39,6 +39,10 @@
 	padding: 6px 12px;
 }
 
+.ta-toolbar.btn-default[disabled] {
+    pointer-events: none;
+}
+
 .ta-editor:focus {
 	user-select: text;
 }
